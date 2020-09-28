@@ -1,0 +1,154 @@
+.dsc-contact {
+  position: relative;
+
+  & > :not(:last-child) {
+    margin-bottom: 40px;
+    z-index: 2;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  
+  .details {
+    text-align: center;
+
+    h4 {
+      margin-bottom: 11px;
+      font-size: 19px;
+    }
+
+    span {
+      opacity: .8;
+    }
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+
+    & > :not(:last-child) {
+      margin-right: 20px;
+    }
+
+    a {
+      display: block;
+      width: 42px;
+    }
+  }
+
+  .map {
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    
+    iframe {
+      height: 300px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .dsc-contact {
+    .background {
+      .qc-top-right {
+        height: 35px;
+        transform: rotate(180deg);
+        right: 0;
+        fill: #FBBC04;
+        top: 20px;
+      }
+  
+      .qc-bottom-left {
+        height: 25px;
+        left: 0;
+        fill: #4285F4;
+        fill-opacity: 0.45;
+        bottom: -50px;
+      }
+  
+      .line-title-bottom {
+        height: 10px;
+        fill: #4285F4;
+        fill-opacity: 0.35;
+      }
+  
+      .circle-title-bottom {
+        height: 15px;
+        fill: #EA4335;
+        fill-opacity: 0.35;
+      }
+  
+      .points-bottom {
+        height: 20px;
+        bottom: -50px;
+        right: 10px;
+        fill: #999;
+        fill-opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .dsc-contact {
+    .title {
+      display: none;
+    }
+
+    .details {
+      h4 {
+        font-size: 25px;
+      }
+    }
+
+    .map iframe {
+      height: 450px;
+    }
+  }
+
+  .background {
+    .qc-top-right {
+      height: 45px;
+      transform: rotate(180deg);
+      right: 0;
+      fill: #FBBC04;
+      top: 20px;
+    }
+
+    .qc-bottom-left {
+      height: 30px;
+      left: -20px;
+      fill: #4285F4;
+      fill-opacity: 0.45;
+      bottom: -50px;
+    }
+
+    .line-title-bottom {
+      height: 15px;
+      fill: #4285F4;
+      fill-opacity: 0.35;
+    }
+
+    .circle-title-bottom {
+      height: 25px;
+      fill: #EA4335;
+      fill-opacity: 0.35;
+    }
+
+    .points-bottom {
+      height: 20px;
+      bottom: -50px;
+      right: 10px;
+      fill: #999;
+      fill-opacity: 0.7;
+    }
+  }
+}

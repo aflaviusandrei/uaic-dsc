@@ -1,0 +1,78 @@
+.dsc-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  right: -85vw;
+  position: fixed;
+  transition: right 0.15s ease-in-out;
+  overflow-y: auto;
+  z-index: 99;
+  
+  &.slide-right {
+    right: 0;
+  }
+  
+  .menu-content {
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .dark-manta {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+  }
+
+  .close-icon, .item {
+    border-bottom: 1px solid #999;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .close-icon {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+
+    svg {
+      fill: orange;
+    }
+  }
+
+  .items {
+    width: 100%;
+    padding: 0 30px
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: rgba($color: #000000, $alpha: 0.7);
+    }
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    & > :not(:last-child) {
+      margin-right: 20px;
+    }
+
+    a {
+      display: block;
+      width: 42px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.dsc-landing-page {
+  & > * {
+    padding-top: 70px;
+  }
+
+  & > :last-child {
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 769px) {
+  .dsc-landing-page {
+    & > * {
+      padding-top: 200px;
+    }
+
+    & > :last-child {
+      margin-bottom: 100px;
+    }
+  }
+}

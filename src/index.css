@@ -1,0 +1,23 @@
+@font-face {
+  font-family: googleSansRegular;
+  src: url('/assets/fonts/GoogleSans-Regular-v1.27.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: googleSansBold;
+  src: url('/assets/fonts/GoogleSans-Bold-v1.27.ttf') format('truetype');
+}
+
+* {
+  font-family: googleSansRegular, 'Open Sans' !important;
+}
+
+h1 {
+  font-weight: 600;
+  color: #4A4B4C;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 300;
+}

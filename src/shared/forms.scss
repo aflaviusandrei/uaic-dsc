@@ -1,0 +1,15 @@
+$colors: (
+  #EA4335,
+  #4285F4,
+  #FBBC04,
+  #D2E3FC,
+  #34A853,
+  #FEEFC3,
+  #174EA6,
+  #FAD2CF,
+  #CEEAD6
+);
+
+@mixin corner-top-left() {
+  transform: rotate(90deg);
+}

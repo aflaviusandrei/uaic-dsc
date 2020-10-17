@@ -16,16 +16,16 @@ export class Team extends React.Component {
           'Final-year student at the Faculty of Computer Science of Iasi with a vast experience in volunteering and personal development trainings. He is also the main designer of the Faculty and their permanent helping hand. The domains in his area of expertise are marketing, public speaking, brand consultancy, graphic design and UI/UX.'
       },
       {
-        name: 'Radu Marinoiu',
-        picture: require('../../../../assets/images/radu.jpg'),
+        name: 'Teodora Balan',
+        picture: require('../../../../assets/images/teo.jpg'),
         description:
-          'Final-year student at the Faculty of Computer Science of Iasi with experience in volunteering and skill development trainings. The domains in his area of expertise are Automation Testing, Backend, REST APIs and Git.'
+          "Final-year CS student at UAIC, I'm in a continous search for new things to learn. Perfecting user experience is one of my passions and I can't wait to work with amazing people in the DSC team."
       },
       {
-        name: 'George Moscu',
-        picture: require('../../../../assets/images/george.jpg'),
+        name: 'Flavius Agrigoroaei',
+        picture: require('../../../../assets/images/flavius.jpg'),
         description:
-          'Student at Faculty of Computer Science of Iasi with experience in volunteering and skill development trainings. The domains in his area of expertise are Angular, React and Node.Js as main technologies with strong knowledge of Javascript.'
+          'Second-year CS student @ UAIC. Currently in love with the web - have been working with web technologies for 4 years, both professionally and on my own time. My current particular interests are React.js and the evolution of the current JavaScript development ecosystem with a focus on designing beautiful user interfaces.'
       },
       {
         name: 'Teodor Proca',
@@ -36,10 +36,10 @@ export class Team extends React.Component {
     ];
     this.members = [
       {
-        name: 'Răzvan-Ionuț Borșan',
-        picture: require('../../../../assets/images/razvan.jpg'),
+        name: 'Daniel Rusu',
+        picture: require('../../../../assets/images/daniel.jpg'),
         description:
-          'Graduate student with a strong passion for computer science, music, books and history. Skilled in Leadership, Front-end Development and Public Speaking, with an evolving interest in technologies such as Blockchain, Mobile Development and ML. Always reading.'
+          'Last year at Faculty of Computer Science, have coordinated FII Practic 2020 edition and really excited about computers and programming. I love to learn everything that is new to me.'
       },
       ...this.random()
     ];

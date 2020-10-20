@@ -257,7 +257,7 @@ export class Home extends React.Component {
         <p className='subtitle'>{subtitle}</p>
 
         <div className='actions'>
-          <button className='btn btn-primary'>APPLY NOW</button>
+          <button className='btn btn-primary' onClick={this.props.toggleModal}>APPLY NOW</button>
         </div>
       </section>
     );
